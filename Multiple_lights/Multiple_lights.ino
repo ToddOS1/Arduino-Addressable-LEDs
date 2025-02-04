@@ -1,9 +1,9 @@
 #include <FastLED.h>
 
-#define NUM_LEDS 160 * 1 // Adjust the number of LEDs per strip
+#define NUM_LEDS 160  // Adjust the number of LEDs per strip
 #define DATA_PIN_1 11
-#define DATA_PIN_2 9
-#define PULSE_COUNT 5  // Number of simultaneous pulses
+#define DATA_PIN_2 8
+#define PULSE_COUNT 1  // Number of simultaneous pulses
 #define PULSE_INTERVAL 10  // Interval between pulses
 
 CRGB leds1[NUM_LEDS];
